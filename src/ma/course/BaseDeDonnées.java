@@ -14,7 +14,7 @@ import java.sql.Statement;
  * Created by bel3atar on 04/01/16.
  */
 public class BaseDeDonnées {
-    private static final String CHEMIN_BASE = "/home/bel3atar/db"; /* ou bien "C:/Users/Admin/Desktop/base.sqlite" */
+    private static final String CHEMIN_BASE = "db/db";
     private static Connection c = null;
     private static Statement s = null;
     private BaseDeDonnées() {}
